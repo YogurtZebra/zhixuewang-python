@@ -17,7 +17,7 @@ pip install git https://github.com/YogurtZebra/zhixuewang-python
 
 ```bash
 git clone https://github.com/YogurtZebra/zhixuewang-python
-cd zhixuewang
+cd zhixuewang-python
 python setup.py install
 ```
 
