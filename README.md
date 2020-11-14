@@ -9,7 +9,7 @@
 ### 使用 pip 安装
 
 ```bash
-pip install git https://github.com/YogurtZebra/zhixuewang-python
+pip install git+https://github.com/YogurtZebra/zhixuewang-python
 ```
 该项目与原项目不同，直接通过`pip install zhixuewang`来安装会安装原项目的包
 
