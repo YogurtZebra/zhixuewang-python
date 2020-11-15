@@ -198,9 +198,9 @@ class SubjectScore:
     def __str__(self):
         msg = f"{self.subject.name}:{self.score}\n"
         if self.class_rank:
-            msg += f""
+            msg += f"班级{self.class_rank}\n"
         if self.grade_rank:
-            msg += f""
+            msg += f"年级{self.grade_rank}\n"
         return msg[:-1]
 
 
@@ -213,8 +213,7 @@ class Mark(ExtendedList):
         self.person = person
 
     def __repr__(self):
-        msg = f"{self.person.name}-{self.exam.name}\n" + \
-            "".join([f"{subject}\n" for subject in self])            # 改这里
+        msg = f"{self.person.name}-{self.exam.name}\n" + "".join([f"{subject}\n" for subject in self])
         return msg[:-1]
 
     def __str__(self):
@@ -226,5 +225,5 @@ class SubjectTable(Enum):
     math = ""
     english = ""
     physics = "01"
-    chemistry = ""
+    chemisry = ""
     history = ""
