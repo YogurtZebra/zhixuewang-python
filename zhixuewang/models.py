@@ -174,13 +174,13 @@ class ExtraRank:
         if not self:
             return msg
         if self.rank:
-            msg += f"排名: {self.rank}\n"
+            msg += f"排名:{self.rank}\n"
         if self.avg_score:
-            msg += f"平均分: {self.avg_score}\n"
+            msg += f"平均分:{self.avg_score}\n"
         if self.low_score:
-            msg += f"最低分: {self.low_score}\n"
+            msg += f"最低分:{self.low_score}\n"
         if self.high_score:
-            msg += f"最高分: {self.high_score}\n"
+            msg += f"最高分:{self.high_score}\n"
         return msg[:-1]
 
 
